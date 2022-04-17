@@ -1,5 +1,5 @@
 const getAllPosts = async () => {
-    const allPostFiles = import.meta.glob('$lib/data/blog/*.md')
+    const allPostFiles = import.meta.glob('/cms/blog/*.md')
 
     const iterablePostFiles = Object.entries(allPostFiles)
 
@@ -19,7 +19,7 @@ const getAllPosts = async () => {
     })
 }
 const getPost = async slug => {
-    const allPostFiles = import.meta.glob(`$lib/data/blog/*.md`)
+    const allPostFiles = import.meta.glob(`/cms/blog/*.md`)
     const iterablePostFile = Object.entries(allPostFiles).find(([path]) =>
         path.includes(slug)
     )
