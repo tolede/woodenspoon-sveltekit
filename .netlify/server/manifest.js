@@ -25,10 +25,10 @@ __export(stdin_exports, {
 module.exports = __toCommonJS(stdin_exports);
 const manifest = {
   appDir: "_app",
-  assets: /* @__PURE__ */ new Set(["admin/config.yml", "admin/index.html", "assets/saubadia.png", "assets/tolede-rond.png", "favicon.png"]),
+  assets: /* @__PURE__ */ new Set(["admin/config.yml", "admin/index.html", "assets/saubadia.png", "assets/tolede-rond.png", "favicon.png", "images/uploads/corona.png"]),
   mimeTypes: { ".yml": "text/yaml", ".html": "text/html", ".png": "image/png" },
   _: {
-    entry: { "file": "start-5a7a0fb4.js", "js": ["start-5a7a0fb4.js", "chunks/index-5d60a29c.js"], "css": [] },
+    entry: { "file": "start-1fce37e8.js", "js": ["start-1fce37e8.js", "chunks/index-5d60a29c.js"], "css": [] },
     nodes: [
       () => Promise.resolve().then(() => __toESM(require("./nodes/0.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/1.js"))),
