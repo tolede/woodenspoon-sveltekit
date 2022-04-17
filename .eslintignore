@@ -1,0 +1,11 @@
+## Exclusions for npm run lint
+
+# Ignored directories
+node_modules/
+dist/
+public/
+
+# Ignored files
+package.json
+package-lock.json
+jsconfig.json
