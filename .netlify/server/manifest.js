@@ -28,7 +28,7 @@ const manifest = {
   assets: /* @__PURE__ */ new Set(["admin/config.yml", "admin/index.html", "assets/saubadia.png", "assets/tolede-rond.png", "favicon.png"]),
   mimeTypes: { ".yml": "text/yaml", ".html": "text/html", ".png": "image/png" },
   _: {
-    entry: { "file": "start-3176420a.js", "js": ["start-3176420a.js", "chunks/index-5d60a29c.js"], "css": [] },
+    entry: { "file": "start-ff78bace.js", "js": ["start-ff78bace.js", "chunks/index-5d60a29c.js"], "css": [] },
     nodes: [
       () => Promise.resolve().then(() => __toESM(require("./nodes/0.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/1.js"))),
