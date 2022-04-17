@@ -6,7 +6,7 @@ const getAllPosts = async () => {
     const allPosts = await Promise.all(
         iterablePostFiles.map(async ([path, resolverPromise]) => {
             const { metadata } = await resolverPromise()
-            const postPath = path.slice(`../data/blog/`.length, -3)
+            const postPath = path.slice(`/cms/blog/`.length, -3)
             return {
                 meta: metadata,
                 path: postPath,
